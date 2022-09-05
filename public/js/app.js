@@ -29,6 +29,7 @@ weatherForm.addEventListener('submit', (event) =>  {
         messageTwo.textContent = ''
       )
     }    
+    messageOne.textContent = 'Location: ' + location + ', ' + data.region + ', ' + data.country
     messageTwo.textContent = 'Forecast: ' + data.forecast
     // console.log(data.location)
     // console.log(data.forecast)
